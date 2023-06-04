@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMEZ-AUTO</title>
+   <!--link to css-->
+   <link rel="stylesheet" href="samez.css">
+
+   <!--box icon-->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!---header-->
+
+    <header>
+        <a href="#home" class="logo"><img src="samez-removebg-preview.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+        </ul>
+        <div class="header-btn">
+            <a href="#" class="sign-up">SIGN-UP</a>
+        </div>
+    </header>
+
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>SAMEZ</span> FUTURISTIC <br>Autos</h1>
+            <p>This company creates futuristic cars in order <br> to meet your comfort level.</p>
+        </div>
+        <img src="samez-removebg-preview.png" width="40px" class="logo-2">
+    </section>
+
+
+    <!--aims-->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Our Services</span>
+            <h1>How It Works</h1>
+        </div>
+        <div class="services-container">
+            <div class="box">
+                <i class='bx bxs-edit-alt'></i>
+                <h2>DESIGNING</h2>
+                <p>we sketch a design of own our car will look like,we have pros in charge of sketching and designing</p>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-car-mechanic'></i>
+                <h2>MODELING</h2>
+                <p>we start creating the car with a futuristic & eco-friendly design in order to make you comfortable</p>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-car-garage'></i>
+                <h2>TESTING</h2>
+                <p>we test the vehicle in order to prevent any danger of accident,we added an a.i called safer it helps to prevent lives</p>
+            </div>
+        </div>
+    </section>
+
+    <!--about us-->
+    <section class="about" id="about">
+        <div class="heading">
+            <span>About Us</span>
+            <h1>Customer Experience</h1>
+        </div>
+
+
+        <div class="about-container">
+            <div class="about-img">
+                <img src="samez car 3.png" alt="">
+            </div>
+
+
+            <div class="about-text">
+                <span>About Us</span>
+                <p>This is a company that create eco-friendly cars in order to help nature,this company was founded 7th may 2023 by samuel eze the 
+                    director and ceo of this company, we create one of the world smartest cars. 
+                </p>
+                <a href="#"  class="btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <!--sponsors-->
+    <section class="sponsors" id="sponsors">
+        <h2>Powered by le<span class="">xx</span>a</h2>
+        <div class="box">
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <input type="text" id="name" class="form-control" placeholder="Your name..." required>
+                <input type="email" id="email" class="form-control" placeholder="Your email..." required>
+                <input type="text" id="phone" class="form-control" placeholder="Phone no" required>
+               <button type="submit" class="btn" onclick="sendEmail()">Send</button>
+            </form>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; SAMEZ AUTOS all right researved</p>
+    </div>
+</body>
+
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="samez.js"></script>
+
+
+
+
+</html>
